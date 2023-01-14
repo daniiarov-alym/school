@@ -8,5 +8,5 @@ render(
       <App />
     </Router>
   ),
-  document.getElementById("app")
+  document.getElementById("root")
 );
