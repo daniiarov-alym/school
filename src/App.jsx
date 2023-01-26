@@ -7,7 +7,7 @@ const Accreditation = lazy(() => import("./pages/Accreditation"));
 const People = lazy(() => import("./pages/People"));
 
 export default function App() {
-  return <>
+  return <div class="h-screen bg-slate-200 dark:bg-slate-200">
     <Navbar>
     </Navbar>
     <Routes>
@@ -17,5 +17,5 @@ export default function App() {
       <Route path="/accreditation" component={Accreditation} />
       <Route path="/people" component={People} />
     </Routes>
-  </>
+  </div>
 }
