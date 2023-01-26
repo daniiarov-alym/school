@@ -20,7 +20,7 @@ export default function Navbar() {
 							</a>
 						</li>
 						<li>
-							<a href="/accrediation" class="resource-link">
+							<a href="/accreditation" class="resource-link">
 								Аккредитация
 							</a>
 						</li>
