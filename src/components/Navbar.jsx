@@ -15,18 +15,8 @@ export default function Navbar() {
 							</a>
 						</li>
 						<li>
-							<a href="/about" class="resource-link">
-								Жонундо
-							</a>
-						</li>
-						<li>
 							<a href="/accreditation" class="resource-link">
 								Аккредитация
-							</a>
-						</li>
-						<li>
-							<a href="/people" class="resource-link">
-								Мугалимдер
 							</a>
 						</li>
 					</ul>
