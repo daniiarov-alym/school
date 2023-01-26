@@ -20,12 +20,12 @@ export default function Navbar() {
 							</a>
 						</li>
 						<li>
-							<a href="/" class="resource-link">
+							<a href="/accrediation" class="resource-link">
 								Аккредитация
 							</a>
 						</li>
 						<li>
-							<a href="/" class="resource-link">
+							<a href="/people" class="resource-link">
 								Мугалимдер
 							</a>
 						</li>

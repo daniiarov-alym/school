@@ -3,10 +3,11 @@ module.exports = {
   content: [
     "./src/*{.js,.jsx,.ts,.tsx}",
     "./src/**/*{.js,.jsx,.ts,.tsx}",
-    "*{.html,.js}"
+    "*{.html,.js}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
