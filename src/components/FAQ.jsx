@@ -2,7 +2,7 @@
 export default function FAQ() {
 	return<>
 		<div class='m-12 space-y-10'>           
-			<div class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-10 py-3" role="alert">
+			<div class="px-10 py-3" role="alert">
 				<p class="font-bold text-5xl pb-10">Институционалдык аккредитациялоо</p>
 
 				<a href="https://docs.google.com/document/d/1Cy3B-IhoSzAEC2vbE55T5oGSfrJp0SXAyHFTCWmN-E8/edit" class="link_to_google_doc">
@@ -146,7 +146,7 @@ export default function FAQ() {
 
 			</div>
 			
-			<div class="bg-violet-100 border-t border-b border-violet-500 text-blue-700 px-4 py-3" role="alert">
+			<div class="px-4 py-3" role="alert">
 				<p class="font-bold text-5xl pb-10">Программалык аккредитациялоо</p>
 				
 				<a href="https://docs.google.com/document/d/1Cy3B-IhoSzAEC2vbE55T5oGSfrJp0SXAyHFTCWmN-E8/edit" class="link_to_google_doc">

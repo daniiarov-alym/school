@@ -5,7 +5,7 @@ const Home = lazy(() => import("./pages/Home"));
 const Accreditation = lazy(() => import("./pages/Accreditation"));
 
 export default function App() {
-  return <div class="h-screen bg-slate-200 dark:bg-slate-200">
+  return <div class="h-full bg-slate-200 dark:bg-slate-200">
     <Navbar>
     </Navbar>
     <Routes>

@@ -8,7 +8,7 @@ export default function Navbar() {
 					</span>
 				</a>
 				<div class="hidden w-full md:block md:w-auto" id="navbar-default">
-					<ul class="flex flex-col p-4 mt-4 border border-gray-100 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-slate-200 md:dark:bg-slate-200 dark:border-gray-700">
+					<ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
 						<li>
 							<a href="/home" class="resource-link" aria-current="page">
 								Негизги
