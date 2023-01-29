@@ -2,15 +2,20 @@
   "name": "vite-template-solid",
   "version": "0.0.0",
   "description": "",
+  "hostname": "http://daniiarov-alym.github.io/school",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+    
   },
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "vite": "^4.0.3",
